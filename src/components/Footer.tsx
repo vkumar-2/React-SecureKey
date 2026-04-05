@@ -1,8 +1,8 @@
 import React from 'react';
 
-type prop = {styles: string[];};
+type Props = {styles: string[];};
 
-const Footer: React.FC<prop> = ({styles}) =>
+const Footer: React.FC<Props> = ({styles}) =>
 {
     const p: string[] = ['py-1', 'text-xl', 'text-shadow-lg/40'];
     const a: string[] = ['text-green-400', 'hover:text-green-600', 'focus:text-amber-600'];

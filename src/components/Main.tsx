@@ -1,13 +1,13 @@
 import React from 'react';
 import {ReactNode} from 'react';
 
-type prop = 
+type Props = 
 {
     styles: string[];
     content: ReactNode;
 };
 
-const Main: React.FC<prop> = ({styles, content}) =>
+const Main: React.FC<Props> = ({styles, content}) =>
 {
     let a: number;
     let b: string;

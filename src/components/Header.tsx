@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from "../assets/logo.png";
 
-type prop = {styles: string[];};
+type Props = {styles: string[];};
 
-const Header: React.FC<prop> = ({styles}) =>
+const Header: React.FC<Props> = ({styles}) =>
 {
     const img: string[] = ['h-[65px]', 'lg:h-[75px]'];
     const h1: string[] = ['py-4', 'bg-olive-500', 'text-2xl', 'text-center', 'font-medium', 'text-amber-400', 'eagle-lake-regular', 'tracking-wider', 'text-shadow-lg/80'];
